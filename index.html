@@ -3,305 +3,1999 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gopinath R | Portfolio</title>
-  <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
-:root{--bg:#08111f;--card:#101d31;--card2:#172741;--text:#f5f7fb;--muted:#a8b3c7;--line:rgba(255,255,255,.11);--accent:#59d5c7;--accent-soft:rgba(89,213,199,.13);--max:1120px}
-*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:90px}body{min-height:100vh;overflow-x:hidden;background:radial-gradient(circle at 12% 8%,rgba(89,213,199,.12),transparent 28%),radial-gradient(circle at 88% 18%,rgba(74,112,255,.13),transparent 30%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.7}a{color:inherit;text-decoration:none}.navbar{position:fixed;inset:0 0 auto 0;z-index:1000;min-height:74px;padding:0 6%;display:flex;align-items:center;justify-content:space-between;gap:28px;border-bottom:1px solid var(--line);background:rgba(8,17,31,.86);backdrop-filter:blur(18px)}.logo{font-family:'Space Grotesk',sans-serif;font-size:1.25rem;font-weight:700}.logo:after{content:'.';color:var(--accent)}.navbar nav{display:flex;gap:24px}.navbar nav a{position:relative;color:var(--muted);font-size:.9rem;font-weight:600}.navbar nav a:hover,.navbar nav a.active{color:var(--text)}.navbar nav a:after{content:'';position:absolute;left:0;bottom:-8px;width:0;height:2px;border-radius:9px;background:var(--accent);transition:.25s}.navbar nav a:hover:after,.navbar nav a.active:after{width:100%}.section{width:min(var(--max),88%);margin:auto;padding:110px 0}.hero{min-height:100vh;padding-top:150px;display:flex;align-items:center}.hero-content{max-width:900px}.tag,.section-heading>p{margin-bottom:14px;color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.hero h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(2.8rem,7vw,5.7rem);line-height:1.03;letter-spacing:-.055em}.hero-description{max-width:760px;margin-top:28px;color:var(--muted);font-size:clamp(1rem,2vw,1.16rem)}.buttons{margin-top:36px;display:flex;flex-wrap:wrap;gap:14px}.btn{min-height:48px;padding:11px 21px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:12px;font-size:.92rem;font-weight:700;transition:.25s}.btn:hover{transform:translateY(-3px)}.btn.primary{border-color:var(--accent);background:var(--accent);color:#031311}.btn.secondary{background:rgba(255,255,255,.025)}.btn.secondary:hover{border-color:var(--accent);background:var(--accent-soft)}.section-heading{margin-bottom:34px}.section-heading h2{font-family:'Space Grotesk',sans-serif;font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;letter-spacing:-.04em}.content-card,.project-card,.skill-card{border:1px solid var(--line);background:rgba(16,29,49,.92);box-shadow:0 24px 60px rgba(0,0,0,.18)}.content-card{padding:clamp(24px,5vw,42px);border-radius:22px}.content-card p+p{margin-top:17px}.content-card p,.project-card>p,.skill-card p,.content-card li{color:var(--muted)}.content-card ul{margin-top:20px;padding-left:22px}.content-card li+li{margin-top:10px}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.project-card{position:relative;overflow:hidden;padding:32px;border-radius:22px;transition:.3s}.project-card:before{content:'';position:absolute;top:-80px;right:-80px;width:190px;height:190px;border-radius:50%;background:rgba(89,213,199,.07)}.project-card:hover{transform:translateY(-8px);border-color:rgba(89,213,199,.46);background:var(--card2)}.project-number{margin-bottom:25px;color:var(--accent);font-family:'Space Grotesk',sans-serif;font-weight:700}.project-card h3,.skill-card h3{font-family:'Space Grotesk',sans-serif}.project-card h3{font-size:1.5rem;line-height:1.2}.project-type{margin-top:7px;color:var(--accent)!important;font-size:.85rem;font-weight:700}.project-card>p{margin-top:19px}.project-card h4{margin-top:24px;font-size:.83rem;letter-spacing:.1em;text-transform:uppercase}.project-links{margin-top:28px}.text-link{display:inline-flex;gap:8px;color:var(--accent);font-weight:800}.text-link:after{content:'↗';transition:.25s}.text-link:hover:after{transform:translate(3px,-3px)}.skills-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.skill-card{min-height:170px;padding:28px;border-radius:20px;transition:.25s}.skill-card:hover{transform:translateY(-5px);border-color:rgba(89,213,199,.4)}.skill-card h3{margin-bottom:12px;font-size:1.15rem}.contact-section{padding-bottom:90px}.contact-links{margin-top:28px;display:flex;flex-wrap:wrap;gap:12px}.contact-links a{padding:10px 15px;border:1px solid var(--line);border-radius:10px;font-size:.9rem;font-weight:700;transition:.25s}.contact-links a:hover{border-color:var(--accent);background:var(--accent-soft)}footer{width:min(var(--max),88%);margin:auto;padding:30px 0 45px;border-top:1px solid var(--line);color:var(--muted);text-align:center;font-size:.86rem}.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}@media(max-width:900px){.navbar{padding:0 5%}.navbar nav{gap:15px}.navbar nav a{font-size:.8rem}.project-grid{grid-template-columns:1fr}}@media(max-width:700px){html{scroll-padding-top:78px}.navbar{position:sticky;padding:14px 5%;flex-direction:column;gap:10px}.navbar nav{width:100%;overflow-x:auto;justify-content:flex-start;padding-bottom:4px}.section{width:92%;padding:82px 0}.hero{min-height:auto;padding-top:95px;padding-bottom:90px}.hero h1{font-size:clamp(2.5rem,13vw,4rem)}.skills-grid{grid-template-columns:1fr}.buttons,.contact-links{flex-direction:column}.btn,.contact-links a{width:100%}}
+  <meta
+    name="description"
+    content="Gopinath R — AI & Full-Stack Developer Portfolio"
+  />
 
+  <title>Gopinath R | AI & Full-Stack Developer</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+    :root {
+      --bg: #050816;
+      --bg-2: #08101f;
+
+      --card: rgba(15, 23, 42, 0.82);
+      --card-hover: rgba(20, 30, 54, 0.96);
+
+      --text: #f8fafc;
+      --muted: #9caec7;
+
+      --line: rgba(255, 255, 255, 0.10);
+      --line-strong: rgba(255, 255, 255, 0.18);
+
+      --teal: #38e8d0;
+      --violet: #9b7cff;
+      --blue: #5c8dff;
+      --pink: #e879f9;
+
+      --gradient:
+        linear-gradient(
+          135deg,
+          var(--teal),
+          var(--blue),
+          var(--violet)
+        );
+
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 90px;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow-x: hidden;
+
+      color: var(--text);
+
+      font-family:
+        "Inter",
+        Arial,
+        sans-serif;
+
+      line-height: 1.7;
+
+      background:
+        radial-gradient(
+          circle at 10% 10%,
+          rgba(56, 232, 208, 0.13),
+          transparent 28%
+        ),
+        radial-gradient(
+          circle at 90% 15%,
+          rgba(155, 124, 255, 0.15),
+          transparent 30%
+        ),
+        radial-gradient(
+          circle at 50% 100%,
+          rgba(92, 141, 255, 0.10),
+          transparent 35%
+        ),
+        linear-gradient(
+          180deg,
+          var(--bg),
+          var(--bg-2)
+        );
+    }
+
+    body::before {
+      content: "";
+
+      position: fixed;
+      inset: 0;
+
+      pointer-events: none;
+      z-index: -1;
+
+      background-image:
+        linear-gradient(
+          rgba(255,255,255,0.018) 1px,
+          transparent 1px
+        ),
+        linear-gradient(
+          90deg,
+          rgba(255,255,255,0.018) 1px,
+          transparent 1px
+        );
+
+      background-size: 42px 42px;
+
+      mask-image:
+        linear-gradient(
+          to bottom,
+          rgba(0,0,0,0.8),
+          transparent 85%
+        );
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .navbar {
+      position: fixed;
+      inset: 0 0 auto 0;
+
+      z-index: 1000;
+
+      min-height: 74px;
+
+      padding: 0 6%;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 28px;
+
+      border-bottom:
+        1px solid var(--line);
+
+      background:
+        rgba(5, 8, 22, 0.75);
+
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+
+      gap: 10px;
+
+      font-family:
+        "Space Grotesk",
+        sans-serif;
+
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .logo-dot {
+      width: 10px;
+      height: 10px;
+
+      border-radius: 50%;
+
+      background: var(--teal);
+
+      box-shadow:
+        0 0 20px
+        rgba(56, 232, 208, 0.8);
+    }
+
+    .navbar nav {
+      display: flex;
+
+      gap: 24px;
+    }
+
+    .navbar nav a {
+      position: relative;
+
+      color: var(--muted);
+
+      font-size: 0.88rem;
+      font-weight: 700;
+
+      transition: 0.25s;
+    }
+
+    .navbar nav a:hover,
+    .navbar nav a.active {
+      color: var(--text);
+    }
+
+    .navbar nav a::after {
+      content: "";
+
+      position: absolute;
+
+      left: 0;
+      bottom: -8px;
+
+      width: 0;
+      height: 2px;
+
+      border-radius: 999px;
+
+      background: var(--gradient);
+
+      transition: 0.25s;
+    }
+
+    .navbar nav a:hover::after,
+    .navbar nav a.active::after {
+      width: 100%;
+    }
+
+    .section {
+      width:
+        min(
+          var(--max),
+          88%
+        );
+
+      margin: auto;
+
+      padding:
+        112px 0;
+    }
+
+    .hero {
+      min-height: 100vh;
+
+      padding-top: 150px;
+
+      display: flex;
+      align-items: center;
+    }
+
+    .hero-content {
+      max-width: 950px;
+    }
+
+    .tag,
+    .section-heading > p {
+      margin-bottom: 14px;
+
+      color: var(--teal);
+
+      font-size: 0.76rem;
+      font-weight: 800;
+
+      letter-spacing: 0.18em;
+
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      max-width: 950px;
+
+      font-family:
+        "Space Grotesk",
+        sans-serif;
+
+      font-size:
+        clamp(
+          3rem,
+          7vw,
+          6rem
+        );
+
+      line-height: 1.02;
+
+      letter-spacing:
+        -0.06em;
+    }
+
+    .gradient-text {
+      background:
+        linear-gradient(
+          90deg,
+          var(--teal),
+          #9bc7ff,
+          var(--violet),
+          var(--pink)
+        );
+
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      color: transparent;
+    }
+
+    .hero-description {
+      max-width: 780px;
+
+      margin-top: 28px;
+
+      color: var(--muted);
+
+      font-size:
+        clamp(
+          1rem,
+          2vw,
+          1.16rem
+        );
+    }
+
+    .hero-tags {
+      margin-top: 26px;
+
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 10px;
+    }
+
+    .hero-tags span {
+      padding:
+        8px 12px;
+
+      border:
+        1px solid var(--line);
+
+      border-radius: 999px;
+
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.025
+        );
+
+      color: #d9e3f1;
+
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .buttons {
+      margin-top: 36px;
+
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 14px;
+    }
+
+    .btn {
+      min-height: 48px;
+
+      padding:
+        11px 21px;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      gap: 9px;
+
+      border:
+        1px solid var(--line);
+
+      border-radius: 12px;
+
+      font-size: 0.92rem;
+      font-weight: 800;
+
+      transition: 0.25s;
+    }
+
+    .btn:hover {
+      transform:
+        translateY(-3px);
+    }
+
+    .btn.primary {
+      border-color:
+        transparent;
+
+      color: #020617;
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--teal),
+          #7dd3fc
+        );
+
+      box-shadow:
+        0 16px 40px
+        rgba(56, 232, 208, 0.16);
+    }
+
+    .btn.secondary {
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.025
+        );
+    }
+
+    .btn.secondary:hover {
+      border-color:
+        rgba(
+          155,
+          124,
+          255,
+          0.45
+        );
+
+      background:
+        rgba(
+          155,
+          124,
+          255,
+          0.08
+        );
+    }
+
+    .section-heading {
+      margin-bottom: 34px;
+
+      max-width: 760px;
+    }
+
+    .section-heading h2 {
+      font-family:
+        "Space Grotesk",
+        sans-serif;
+
+      font-size:
+        clamp(
+          2.1rem,
+          4vw,
+          3.3rem
+        );
+
+      line-height: 1.08;
+
+      letter-spacing:
+        -0.045em;
+    }
+
+    .section-description {
+      margin-top: 14px;
+
+      color: var(--muted);
+    }
+
+    .content-card,
+    .project-card,
+    .skill-card {
+      border:
+        1px solid var(--line);
+
+      background:
+        linear-gradient(
+          180deg,
+          rgba(255,255,255,0.025),
+          rgba(255,255,255,0.006)
+        ),
+        var(--card);
+
+      box-shadow:
+        0 24px 70px
+        rgba(0, 0, 0, 0.26);
+
+      backdrop-filter:
+        blur(14px);
+    }
+
+    .content-card {
+      padding:
+        clamp(
+          24px,
+          5vw,
+          42px
+        );
+
+      border-radius:
+        22px;
+    }
+
+    .content-card p + p {
+      margin-top: 17px;
+    }
+
+    .content-card p,
+    .project-card > p,
+    .skill-card p,
+    .content-card li {
+      color: var(--muted);
+    }
+
+    .content-card ul {
+      margin-top: 20px;
+
+      padding-left: 22px;
+    }
+
+    .content-card li + li {
+      margin-top: 10px;
+    }
+
+    /* ==========================
+       PROJECTS
+    ========================== */
+
+    .project-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(
+          3,
+          minmax(0, 1fr)
+        );
+
+      gap: 22px;
+
+      align-items: stretch;
+    }
+
+    .project-card {
+      position: relative;
+
+      overflow: hidden;
+
+      min-height: 560px;
+
+      padding: 30px;
+
+      display: flex;
+      flex-direction: column;
+
+      border-radius: 22px;
+
+      transition:
+        transform 0.3s,
+        border-color 0.3s,
+        background 0.3s;
+    }
+
+    .project-card::before {
+      content: "";
+
+      position: absolute;
+
+      top: -70px;
+      right: -70px;
+
+      width: 180px;
+      height: 180px;
+
+      border-radius: 50%;
+
+      background:
+        radial-gradient(
+          circle,
+          rgba(
+            56,
+            232,
+            208,
+            0.10
+          ),
+          transparent 70%
+        );
+    }
+
+    .project-card:nth-child(2)::before {
+      background:
+        radial-gradient(
+          circle,
+          rgba(
+            92,
+            141,
+            255,
+            0.12
+          ),
+          transparent 70%
+        );
+    }
+
+    .project-card:nth-child(3)::before {
+      background:
+        radial-gradient(
+          circle,
+          rgba(
+            155,
+            124,
+            255,
+            0.12
+          ),
+          transparent 70%
+        );
+    }
+
+    .project-card:hover {
+      transform:
+        translateY(-8px);
+
+      border-color:
+        var(--line-strong);
+
+      background:
+        var(--card-hover);
+    }
+
+    .project-number {
+      margin-bottom: 24px;
+
+      font-family:
+        "Space Grotesk",
+        sans-serif;
+
+      font-size: 0.84rem;
+      font-weight: 700;
+
+      color: var(--teal);
+    }
+
+    .project-card:nth-child(2)
+    .project-number {
+      color: var(--blue);
+    }
+
+    .project-card:nth-child(3)
+    .project-number {
+      color: var(--violet);
+    }
+
+    .project-card h3 {
+      font-family:
+        "Space Grotesk",
+        sans-serif;
+
+      font-size: 1.5rem;
+
+      line-height: 1.2;
+    }
+
+    .project-type {
+      margin-top: 8px;
+
+      color:
+        var(--teal) !important;
+
+      font-size: 0.82rem;
+
+      font-weight: 800;
+    }
+
+    .project-card:nth-child(2)
+    .project-type {
+      color:
+        var(--blue) !important;
+    }
+
+    .project-card:nth-child(3)
+    .project-type {
+      color:
+        var(--violet) !important;
+    }
+
+    .project-card > p {
+      margin-top: 18px;
+    }
+
+    .project-card h4 {
+      margin-top: 22px;
+
+      font-size: 0.78rem;
+
+      letter-spacing:
+        0.1em;
+
+      text-transform:
+        uppercase;
+    }
+
+    .stack-list {
+      margin-top: 11px;
+
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 7px;
+    }
+
+    .stack-list span {
+      padding:
+        6px 9px;
+
+      border:
+        1px solid var(--line);
+
+      border-radius:
+        999px;
+
+      color: #dbe5f3;
+
+      background:
+        rgba(
+          255,
+          255,
+          255,
+          0.025
+        );
+
+      font-size:
+        0.72rem;
+
+      font-weight:
+        700;
+    }
+
+    .project-links {
+      margin-top: auto;
+
+      padding-top: 28px;
+
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 18px;
+    }
+
+    .text-link {
+      display:
+        inline-flex;
+
+      gap: 8px;
+
+      font-weight: 800;
+
+      color: var(--teal);
+    }
+
+    .project-card:nth-child(2)
+    .text-link {
+      color: var(--blue);
+    }
+
+    .project-card:nth-child(3)
+    .text-link {
+      color: var(--violet);
+    }
+
+    .text-link::after {
+      content: "↗";
+
+      transition: 0.25s;
+    }
+
+    .text-link:hover::after {
+      transform:
+        translate(3px, -3px);
+    }
+
+    /* ==========================
+       SKILLS
+    ========================== */
+
+    .skills-grid {
+      display: grid;
+
+      grid-template-columns:
+        repeat(
+          4,
+          minmax(0, 1fr)
+        );
+
+      gap: 18px;
+    }
+
+    .skill-card {
+      min-height: 175px;
+
+      padding: 28px;
+
+      border-radius: 20px;
+
+      transition: 0.25s;
+    }
+
+    .skill-card:hover {
+      transform:
+        translateY(-5px);
+
+      border-color:
+        rgba(
+          155,
+          124,
+          255,
+          0.35
+        );
+    }
+
+    .skill-icon {
+      width: 42px;
+      height: 42px;
+
+      margin-bottom: 17px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 12px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(
+            56,
+            232,
+            208,
+            0.12
+          ),
+          rgba(
+            155,
+            124,
+            255,
+            0.12
+          )
+        );
+
+      border:
+        1px solid var(--line);
+
+      color: var(--teal);
+
+      font-weight: 800;
+    }
+
+    .skill-card h3 {
+      margin-bottom: 12px;
+
+      font-family:
+        "Space Grotesk",
+        sans-serif;
+
+      font-size: 1.12rem;
+    }
+
+    .contact-section {
+      padding-bottom: 90px;
+    }
+
+    .contact-links {
+      margin-top: 28px;
+
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 12px;
+    }
+
+    .contact-links a {
+      padding:
+        10px 15px;
+
+      border:
+        1px solid var(--line);
+
+      border-radius: 10px;
+
+      font-size: 0.9rem;
+
+      font-weight: 700;
+
+      transition: 0.25s;
+    }
+
+    .contact-links a:hover {
+      transform:
+        translateY(-2px);
+
+      border-color:
+        rgba(
+          56,
+          232,
+          208,
+          0.45
+        );
+
+      background:
+        rgba(
+          56,
+          232,
+          208,
+          0.07
+        );
+    }
+
+    footer {
+      width:
+        min(
+          var(--max),
+          88%
+        );
+
+      margin: auto;
+
+      padding:
+        30px 0 45px;
+
+      border-top:
+        1px solid var(--line);
+
+      color: var(--muted);
+
+      text-align: center;
+
+      font-size: 0.86rem;
+    }
+
+    .reveal {
+      opacity: 0;
+
+      transform:
+        translateY(28px);
+
+      transition:
+        opacity 0.7s,
+        transform 0.7s;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+
+      transform: none;
+    }
+
+    @media (
+      max-width: 1050px
+    ) {
+      .project-grid {
+        grid-template-columns:
+          repeat(
+            2,
+            minmax(0, 1fr)
+          );
+      }
+
+      .skills-grid {
+        grid-template-columns:
+          repeat(
+            2,
+            minmax(0, 1fr)
+          );
+      }
+    }
+
+    @media (
+      max-width: 760px
+    ) {
+      .navbar {
+        position: sticky;
+
+        padding:
+          14px 5%;
+
+        flex-direction: column;
+
+        gap: 10px;
+      }
+
+      .navbar nav {
+        width: 100%;
+
+        overflow-x: auto;
+
+        justify-content:
+          flex-start;
+
+        gap: 18px;
+
+        padding-bottom: 4px;
+      }
+
+      .section {
+        width: 92%;
+
+        padding:
+          82px 0;
+      }
+
+      .hero {
+        min-height: auto;
+
+        padding-top:
+          90px;
+
+        padding-bottom:
+          90px;
+      }
+
+      .hero h1 {
+        font-size:
+          clamp(
+            2.55rem,
+            13vw,
+            4.2rem
+          );
+      }
+
+      .project-grid,
+      .skills-grid {
+        grid-template-columns:
+          1fr;
+      }
+
+      .project-card {
+        min-height: auto;
+      }
+
+      .buttons,
+      .contact-links {
+        flex-direction:
+          column;
+      }
+
+      .btn,
+      .contact-links a {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
 <body>
+
   <header class="navbar">
-    <a href="#home" class="logo">Gopinath R</a>
+
+    <a
+      href="#home"
+      class="logo"
+    >
+      <span
+        class="logo-dot"
+      ></span>
+
+      Gopinath R
+    </a>
+
 
     <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+
+      <a href="#home">
+        Home
+      </a>
+
+      <a href="#about">
+        About
+      </a>
+
+      <a href="#projects">
+        Projects
+      </a>
+
+      <a href="#experience">
+        Experience
+      </a>
+
+      <a href="#skills">
+        Skills
+      </a>
+
+      <a href="#contact">
+        Contact
+      </a>
+
     </nav>
+
   </header>
 
+
   <main>
-    <section id="home" class="hero section">
-      <div class="hero-content">
-        <p class="tag">Computer Science Student</p>
+
+    <!-- HERO -->
+
+    <section
+      id="home"
+      class="hero section"
+    >
+
+      <div
+        class="hero-content"
+      >
+
+        <p class="tag">
+          AI & FULL-STACK DEVELOPER
+        </p>
+
 
         <h1>
-          I build full-stack applications and make AI useful inside them.
+          I build
+          <span class="gradient-text">
+            intelligent products
+          </span>
+          that solve real problems.
         </h1>
 
-        <p class="hero-description">
-          I built Bharath Climate Twin for an ISRO hackathon to analyse climate
-          data, identify patterns and provide useful insights through an AI
-          assistant. I also built GFitness, a full-stack fitness application.
+
+        <p
+          class="hero-description"
+        >
+          Computer Science student focused on
+          building AI-powered applications,
+          full-stack products and data-driven
+          tools from idea to deployment.
         </p>
+
+
+        <div
+          class="hero-tags"
+        >
+
+          <span>
+            React
+          </span>
+
+          <span>
+            FastAPI
+          </span>
+
+          <span>
+            Python
+          </span>
+
+          <span>
+            AI Integration
+          </span>
+
+          <span>
+            Vercel
+          </span>
+
+          <span>
+            Render
+          </span>
+
+        </div>
+
 
         <div class="buttons">
-          <a href="#projects" class="btn primary">View Projects</a>
-          <a href="resume.pdf" class="btn secondary" target="_blank">Resume</a>
-          <a href="#contact" class="btn secondary">Contact Me</a>
+
+          <a
+            href="#projects"
+            class="btn primary"
+          >
+            View Projects
+          </a>
+
+
+          <a
+            href="resume.pdf"
+            class="btn secondary"
+            target="_blank"
+          >
+            Resume
+          </a>
+
+
+          <a
+            href="#contact"
+            class="btn secondary"
+          >
+            Contact Me
+          </a>
+
         </div>
+
       </div>
+
     </section>
 
-    <section id="about" class="section">
-      <div class="section-heading">
-        <p>About</p>
-        <h2>About Me</h2>
+
+    <!-- ABOUT -->
+
+    <section
+      id="about"
+      class="section"
+    >
+
+      <div
+        class="section-heading"
+      >
+
+        <p>
+          About
+        </p>
+
+        <h2>
+          Building practical software with AI.
+        </h2>
+
       </div>
 
-      <div class="content-card">
-        <p>
-          I am a third-year Computer Science and Engineering student at
-          R.M.D. Engineering College.
-        </p>
+
+      <div
+        class="content-card"
+      >
 
         <p>
-          I became interested in AI through hackathons and practical projects.
-          Building Bharath Climate Twin showed me how complex climate data could
-          be converted into useful information through software and AI.
+          I am a third-year Computer Science and
+          Engineering student at R.M.D.
+          Engineering College.
         </p>
 
-        <p>
-          I also enjoy building full-stack applications. When a problem does not
-          require AI, I focus on creating a simple and useful software solution.
-        </p>
 
         <p>
-          Right now, I am looking for internships and freelance opportunities
-          where I can continue improving my AI and full-stack development skills.
+          I became interested in AI through
+          hackathons and practical projects.
+          I enjoy turning ideas into working
+          applications instead of stopping at
+          prototypes.
         </p>
+
+
+        <p>
+          My recent work includes FENRIR AI,
+          Bharath Climate Twin and GFitness.
+          These projects helped me gain experience
+          in frontend development, backend APIs,
+          AI integration, data processing,
+          authentication and deployment.
+        </p>
+
+
+        <p>
+          I am currently looking for internships
+          and freelance opportunities where I can
+          continue improving my AI and full-stack
+          development skills.
+        </p>
+
       </div>
+
     </section>
 
-    <section id="projects" class="section">
-      <div class="section-heading">
-        <p>Projects</p>
-        <h2>What I Built</h2>
+
+    <!-- PROJECTS -->
+
+    <section
+      id="projects"
+      class="section"
+    >
+
+      <div
+        class="section-heading"
+      >
+
+        <p>
+          Projects
+        </p>
+
+        <h2>
+          Selected Work
+        </h2>
+
+        <p
+          class="section-description"
+        >
+          Three projects across AI,
+          climate intelligence and
+          full-stack application development.
+        </p>
+
       </div>
 
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-number">01</div>
 
-          <h3>Bharath Climate Twin v2.0</h3>
-          <p class="project-type">ISRO Hackathon — Team Lead</p>
+      <div
+        class="project-grid"
+      >
 
-          <p>
-            A real-time climate intelligence dashboard that processes
-            meteorological data across multiple climate layers and presents
-            useful insights through maps, visualisations and an AI assistant.
+        <!-- PROJECT 1 -->
+
+        <article
+          class="project-card"
+        >
+
+          <div
+            class="project-number"
+          >
+            01
+          </div>
+
+
+          <h3>
+            FENRIR AI
+          </h3>
+
+
+          <p
+            class="project-type"
+          >
+            AI Intelligence Platform
           </p>
 
-          <h4>My Role</h4>
+
           <p>
-            I worked on the Streamlit application, OpenAI API integration,
-            dashboard design, deployment and team coordination.
+            A deployed AI workspace combining
+            a personal AI assistant,
+            image generation,
+            SEO intelligence,
+            analytics,
+            reports,
+            Google authentication,
+            chat history and
+            user customization.
           </p>
 
-          <h4>Stack</h4>
+
+          <h4>
+            My Role
+          </h4>
+
+
           <p>
-            Python, Streamlit, Pandas, NumPy, Xarray, Scikit-Learn,
-            OpenAI API, Git and GitHub.
+            Designed the interface,
+            built the React frontend
+            and FastAPI backend,
+            integrated AI services
+            and Google OAuth,
+            handled production CORS,
+            and deployed the complete platform.
           </p>
 
-          <div class="project-links">
+
+          <h4>
+            Stack
+          </h4>
+
+
+          <div
+            class="stack-list"
+          >
+
+            <span>React</span>
+            <span>Vite</span>
+            <span>FastAPI</span>
+            <span>Python</span>
+            <span>AI APIs</span>
+            <span>Google OAuth</span>
+            <span>Vercel</span>
+            <span>Render</span>
+
+          </div>
+
+
+          <div
+            class="project-links"
+          >
+
+            <a
+              href="https://fenrir-ai-five.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-link"
+            >
+              Live Demo
+            </a>
+
+
+            <a
+              href="https://github.com/gopinath04-R/FENRIR-AI"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-link"
+            >
+              GitHub
+            </a>
+
+          </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article
+          class="project-card"
+        >
+
+          <div
+            class="project-number"
+          >
+            02
+          </div>
+
+
+          <h3>
+            Bharath Climate Twin v2.0
+          </h3>
+
+
+          <p
+            class="project-type"
+          >
+            ISRO Hackathon Project
+          </p>
+
+
+          <p>
+            A climate intelligence dashboard
+            designed to process meteorological
+            data across multiple climate layers
+            and convert complex information into
+            useful maps, visualisations and
+            AI-assisted insights.
+          </p>
+
+
+          <h4>
+            My Role
+          </h4>
+
+
+          <p>
+            Worked on the Streamlit application,
+            AI integration,
+            dashboard design,
+            climate data workflows,
+            deployment and
+            team coordination.
+          </p>
+
+
+          <h4>
+            Stack
+          </h4>
+
+
+          <div
+            class="stack-list"
+          >
+
+            <span>Python</span>
+            <span>Streamlit</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Xarray</span>
+            <span>Scikit-Learn</span>
+            <span>OpenAI API</span>
+
+          </div>
+
+
+          <div
+            class="project-links"
+          >
+
             <a
               href="https://fenrirclimate-vh57jrgz85bnbnxokc6xrz.streamlit.app/"
               target="_blank"
+              rel="noopener noreferrer"
               class="text-link"
             >
               Live Demo
             </a>
+
           </div>
+
         </article>
 
-        <article class="project-card">
-          <div class="project-number">02</div>
 
-          <h3>GFitness</h3>
-          <p class="project-type">Personal Project</p>
+        <!-- PROJECT 3 -->
 
-          <p>
-            A responsive fitness web application with secure login, BMI and
-            nutrition calculators, and Firebase-based user data handling.
+        <article
+          class="project-card"
+        >
+
+          <div
+            class="project-number"
+          >
+            03
+          </div>
+
+
+          <h3>
+            GFitness
+          </h3>
+
+
+          <p
+            class="project-type"
+          >
+            Full-Stack Fitness Application
           </p>
 
-          <h4>My Role</h4>
+
           <p>
-            I designed and developed the frontend, integrated Firebase
-            Authentication and Firestore, built the calculators and deployed
-            the application.
+            A responsive fitness platform
+            with secure authentication,
+            BMI and nutrition calculators,
+            user data handling and
+            a clean mobile-friendly
+            experience.
           </p>
 
-          <h4>Stack</h4>
+
+          <h4>
+            My Role
+          </h4>
+
+
           <p>
-            React.js, Firebase Authentication, Firebase Firestore,
-            Firebase Hosting, Git and GitHub.
+            Designed and developed
+            the frontend,
+            integrated Firebase
+            Authentication and Firestore,
+            built the fitness calculators,
+            and deployed the application.
           </p>
 
-          <div class="project-links">
+
+          <h4>
+            Stack
+          </h4>
+
+
+          <div
+            class="stack-list"
+          >
+
+            <span>React</span>
+            <span>Firebase</span>
+            <span>Firestore</span>
+            <span>Authentication</span>
+            <span>JavaScript</span>
+            <span>Git</span>
+
+          </div>
+
+
+          <div
+            class="project-links"
+          >
+
             <a
               href="https://gfitness-ec728.web.app"
               target="_blank"
+              rel="noopener noreferrer"
               class="text-link"
             >
               Live Demo
             </a>
+
           </div>
+
         </article>
+
       </div>
+
     </section>
 
-    <section id="experience" class="section">
-      <div class="section-heading">
-        <p>Experience</p>
-        <h2>AI Training Program — FlyRank AI</h2>
-      </div>
 
-      <div class="content-card">
-        <p class="project-type">Ongoing, 2026</p>
+    <!-- EXPERIENCE -->
+
+    <section
+      id="experience"
+      class="section"
+    >
+
+      <div
+        class="section-heading"
+      >
 
         <p>
-          Cohort-based program focused on practical AI skills, prompt
-          engineering, AI-assisted writing and portfolio building, with weekly
-          assignments reviewed through mentor feedback.
+          Experience
         </p>
+
+        <h2>
+          AI Training Program — FlyRank AI
+        </h2>
+
+      </div>
+
+
+      <div
+        class="content-card"
+      >
+
+        <p
+          class="project-type"
+        >
+          Ongoing • 2026
+        </p>
+
+
+        <p>
+          Cohort-based program focused on
+          practical AI skills,
+          prompt engineering,
+          AI-assisted development,
+          personal agent building and
+          portfolio development.
+        </p>
+
 
         <ul>
+
           <li>
-            Rewrote AI-generated content to sound natural and remove robotic
-            language.
+            Designed and built a working
+            personal AI agent workflow.
           </li>
+
           <li>
-            Used structured prompting to convert project information into
-            portfolio-ready case studies.
+            Used structured prompting
+            and AI-assisted development
+            to create real software.
           </li>
+
           <li>
-            Improved writing and reasoning through reviewer feedback.
+            Improved product presentation,
+            technical communication
+            and reasoning through feedback.
           </li>
+
         </ul>
+
       </div>
+
     </section>
 
-    <section id="skills" class="section">
-      <div class="section-heading">
-        <p>Skills</p>
-        <h2>Technical Skills</h2>
-      </div>
 
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h3>Frontend</h3>
-          <p>React.js, HTML, CSS, JavaScript, Streamlit</p>
-        </div>
+    <!-- SKILLS -->
 
-        <div class="skill-card">
-          <h3>Backend</h3>
-          <p>Python, Firebase Authentication, Firebase Firestore</p>
-        </div>
+    <section
+      id="skills"
+      class="section"
+    >
 
-        <div class="skill-card">
-          <h3>AI & Data</h3>
-          <p>OpenAI API, Scikit-Learn, Pandas, NumPy, Xarray</p>
-        </div>
+      <div
+        class="section-heading"
+      >
 
-        <div class="skill-card">
-          <h3>Tools</h3>
-          <p>Git, GitHub, VS Code, Firebase, Streamlit Community Cloud</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-      <div class="section-heading">
-        <p>Contact</p>
-        <h2>Let’s Work Together</h2>
-      </div>
-
-      <div class="content-card">
         <p>
-          I am open to internships and freelance opportunities in AI-integrated
-          and full-stack development.
+          Skills
         </p>
 
-        <div class="contact-links">
-          <a href="mailto:kravitailor2020@gmail.com">
-            kravitailor2020@gmail.com
+        <h2>
+          Technical Skills
+        </h2>
+
+      </div>
+
+
+      <div
+        class="skills-grid"
+      >
+
+        <div
+          class="skill-card"
+        >
+
+          <div
+            class="skill-icon"
+          >
+            FE
+          </div>
+
+          <h3>
+            Frontend
+          </h3>
+
+          <p>
+            React.js,
+            Vite,
+            HTML,
+            CSS,
+            JavaScript,
+            Streamlit
+          </p>
+
+        </div>
+
+
+        <div
+          class="skill-card"
+        >
+
+          <div
+            class="skill-icon"
+          >
+            BE
+          </div>
+
+          <h3>
+            Backend
+          </h3>
+
+          <p>
+            Python,
+            FastAPI,
+            REST APIs,
+            Firebase Authentication,
+            Firestore
+          </p>
+
+        </div>
+
+
+        <div
+          class="skill-card"
+        >
+
+          <div
+            class="skill-icon"
+          >
+            AI
+          </div>
+
+          <h3>
+            AI & Data
+          </h3>
+
+          <p>
+            AI API Integration,
+            OpenAI API,
+            Pandas,
+            NumPy,
+            Xarray,
+            Scikit-Learn
+          </p>
+
+        </div>
+
+
+        <div
+          class="skill-card"
+        >
+
+          <div
+            class="skill-icon"
+          >
+            DX
+          </div>
+
+          <h3>
+            Deployment & Tools
+          </h3>
+
+          <p>
+            Git,
+            GitHub,
+            VS Code,
+            Vercel,
+            Render,
+            Firebase,
+            Streamlit Cloud
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section
+      id="contact"
+      class="section contact-section"
+    >
+
+      <div
+        class="section-heading"
+      >
+
+        <p>
+          Contact
+        </p>
+
+        <h2>
+          Let’s Work Together
+        </h2>
+
+      </div>
+
+
+      <div
+        class="content-card"
+      >
+
+        <p>
+          I am open to internships
+          and freelance opportunities
+          in AI-integrated products,
+          full-stack development
+          and practical software engineering.
+        </p>
+
+
+        <div
+          class="contact-links"
+        >
+
+          <a
+            href="mailto:kravitailor2020@gmail.com"
+          >
+            Email
           </a>
 
-          <a href="https://linkedin.com/in/gopi-nath-6402a6335" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 
-          <a href="https://github.com/gopinath04-R" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a
+            href="https://linkedin.com/in/gopi-nath-6402a6335"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
 
-          <a href="resume.pdf" target="_blank">Download Resume</a>
+
+          <a
+            href="https://github.com/gopinath04-R"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+
+          <a
+            href="resume.pdf"
+            target="_blank"
+          >
+            Resume
+          </a>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
+
   <footer>
-    <p>© 2026 Gopinath R. Built with HTML, CSS and JavaScript.</p>
+
+    <p>
+      © 2026 Gopinath R.
+      Built with HTML, CSS and JavaScript.
+    </p>
+
   </footer>
 
+
   <script>
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll(".navbar nav a");
 
-const revealElements = document.querySelectorAll(
-  ".section-heading, .content-card, .project-card, .skill-card"
-);
+    const sections =
+      document.querySelectorAll(
+        "section"
+      );
 
-revealElements.forEach((element) => {
-  element.classList.add("reveal");
-});
+    const navLinks =
+      document.querySelectorAll(
+        ".navbar nav a"
+      );
 
-const revealObserver = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        revealObserver.unobserve(entry.target);
+
+    const revealElements =
+      document.querySelectorAll(
+        ".section-heading, .content-card, .project-card, .skill-card"
+      );
+
+
+    revealElements.forEach(
+      (element) => {
+        element.classList.add(
+          "reveal"
+        );
       }
-    });
-  },
-  {
-    threshold: 0.12,
-  }
-);
+    );
 
-revealElements.forEach((element) => {
-  revealObserver.observe(element);
-});
 
-window.addEventListener("scroll", () => {
-  let currentSection = "";
+    const revealObserver =
+      new IntersectionObserver(
+        (entries) => {
 
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop - 150;
-    const sectionHeight = section.offsetHeight;
+          entries.forEach(
+            (entry) => {
 
-    if (
-      window.scrollY >= sectionTop &&
-      window.scrollY < sectionTop + sectionHeight
-    ) {
-      currentSection = section.getAttribute("id");
-    }
-  });
+              if (
+                entry.isIntersecting
+              ) {
 
-  navLinks.forEach((link) => {
-    link.classList.remove("active");
+                entry.target
+                  .classList
+                  .add(
+                    "visible"
+                  );
 
-    if (link.getAttribute("href") === `#${currentSection}`) {
-      link.classList.add("active");
-    }
-  });
-});
-</script>
+                revealObserver
+                  .unobserve(
+                    entry.target
+                  );
+
+              }
+
+            }
+          );
+
+        },
+        {
+          threshold: 0.10,
+        }
+      );
+
+
+    revealElements.forEach(
+      (element) => {
+        revealObserver.observe(
+          element
+        );
+      }
+    );
+
+
+    window.addEventListener(
+      "scroll",
+      () => {
+
+        let currentSection =
+          "";
+
+
+        sections.forEach(
+          (section) => {
+
+            const sectionTop =
+              section.offsetTop -
+              150;
+
+            const sectionHeight =
+              section.offsetHeight;
+
+
+            if (
+              window.scrollY >=
+                sectionTop &&
+              window.scrollY <
+                sectionTop +
+                sectionHeight
+            ) {
+
+              currentSection =
+                section.getAttribute(
+                  "id"
+                );
+
+            }
+
+          }
+        );
+
+
+        navLinks.forEach(
+          (link) => {
+
+            link.classList.remove(
+              "active"
+            );
+
+
+            if (
+              link.getAttribute(
+                "href"
+              ) ===
+              `#${currentSection}`
+            ) {
+
+              link.classList.add(
+                "active"
+              );
+
+            }
+
+          }
+        );
+
+      }
+    );
+
+  </script>
+
 </body>
 </html>
